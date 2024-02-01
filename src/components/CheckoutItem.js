@@ -3,7 +3,7 @@ import { quantityHandler, removeFromCart } from '../helpers/cartFunctions'
 
 function CheckoutItem({cartItemData, setCartUpdated}) {
   const thisItemsTotalPrice = cartItemData.price * cartItemData.quantity
-  const [newQuantity, setNewQuantity] = useState(0)
+
   function preventMoreThan30chars(str) {
     let newStr = str
     if(str.length > 30) {
