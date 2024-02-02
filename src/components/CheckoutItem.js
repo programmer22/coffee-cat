@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { quantityHandler, removeFromCart } from '../helpers/cartFunctions'
 
 function CheckoutItem({cartItemData, setCartUpdated}) {
